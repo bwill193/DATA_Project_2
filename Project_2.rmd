@@ -98,8 +98,6 @@ firefighters2 <- mutate(firefighters2, Days.After.Incident = Date.of.Death - Dat
 str(firefighters2$Days.After.Incident)
 ```
 
-# Data Analysis
-
 ## Gender Information
 
 Gender  is not part of the dataset, so to answer this question of whether gender is a significant factor, we derived gender from first names. We resort to "gender" and "genderdata" packages described at the links shown below and at www.r-project.org/nosvn/pandoc/gender.html. The function "gender" returns the likely gender of a first name based on historical information, with 97% accuracy for any given year.
